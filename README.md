@@ -18,7 +18,7 @@ This is a simple compiler project built with Node.js and Express, utilizing the 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/simple-compiler-project.git](https://github.com/webdeveloper-fresher32/Simple-GDB.git
+    git clone https://github.com/webdeveloper-fresher32/Simple-GDB.git
     ```
 
 2. Navigate to the project directory:

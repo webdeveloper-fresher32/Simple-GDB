@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online IDE</title>
+  </head>
+  <body>
+    <center>
+      <form name="myForm" id="myForm" method="post" action="compilecode">
+        <h3>code</h3>
+        <textarea name="code" id="code" cols="100" rows="13"></textarea>
+        <br />
+        <h3>Input</h3>
+        <textarea name="input" id="input" cols="100" rows="10"></textarea>
+        <br />        
+        <br />        
+
+        Languages:
+        <select name="lang" id="langSelect">
+          <option value="C">C</option>
+          <option value="C++">C++</option>
+          <option value="Python">Python</option>
+        </select>
+        <br/>
+        <br/>
+        Compile With Input:
+        <input type="radio" name="inputRadio" id="inputRadioYes" value="true" />Yes
+        <input type="radio" name="inputRadio" id="inputRadioNo" value="false" />No
+        <br/>
+        <br/>
+        <input type="submit" name="submit" id="submit">
+      </form>
+    </center>
+  </body>
+</html>
